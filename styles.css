@@ -1,18 +1,5 @@
 
 
-html, body {
-    overflow-x: hidden;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-section {
-    overflow: hidden; /* Elimina cualquier desbordamiento interno */
-}
-
-
 body {
     font-family: 'Georgia', serif;
     margin: 0;
@@ -121,10 +108,12 @@ footer {
     font-family: 'Verdana', sans-serif;
     font-size: 1.2rem;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Centra en caso de algún desajuste */
 }
 
 footer p {
     margin: 0;
+    text-align: center;
     color: #fff;
 }
 
