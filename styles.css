@@ -1,3 +1,18 @@
+
+
+html, body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    overflow: hidden; /* Elimina cualquier desbordamiento interno */
+}
+
+
 body {
     font-family: 'Georgia', serif;
     margin: 0;
