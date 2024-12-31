@@ -19,6 +19,7 @@ body, html {
     height: auto; /* Mantiene las proporciones originales de la imagen */
     margin: 20px auto; /* Centra la imagen y añade espacio vertical */
     border-radius: 10px; /* Opcional: bordes redondeados para estética */
+    filter: drop-shadow(0px 0px 5px white); /* Sombra en la imagen */
 }
 
 .menu-container, .menu-section, header, footer {
@@ -97,7 +98,7 @@ img {
 .decoration {
     width: 60px;
     height: auto;
-    animation: float 3s infinite ease-in-out;
+    animation: float 4s infinite ease-in-out;
 }
 
 @keyframes float {
@@ -105,7 +106,7 @@ img {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-50px);
     }
 }
 
