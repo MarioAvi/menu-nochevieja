@@ -137,7 +137,8 @@ img {
     }
 
     .responsive-image {
-        width: 40%; /* Ocupa todo el ancho del contenedor */
+        width: 80%; /* Ajusta a un tamaño más grande en móviles */
+        max-width: 300px; /* Opcional: establece un máximo en píxeles para evitar desbordes */
     }
 
     .menu-container {
