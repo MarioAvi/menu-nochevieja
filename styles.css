@@ -15,7 +15,7 @@ body, html {
 
 .responsive-image {
     display: block; /* Asegura que la imagen sea un bloque independiente */
-    width: 10%; /* Ocupa todo el ancho del contenedor */
+    width: 20%; /* Ocupa todo el ancho del contenedor */
     height: auto; /* Mantiene las proporciones originales de la imagen */
     margin: 20px auto; /* Centra la imagen y añade espacio vertical */
     border-radius: 10px; /* Opcional: bordes redondeados para estética */
@@ -42,6 +42,7 @@ img {
     width: 100%;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 70px;
 }
 
 .header h1 {
