@@ -16,10 +16,21 @@ body, html {
 .responsive-image {
     display: block; /* Asegura que la imagen sea un bloque independiente */
     width: 10%; /* Ocupa todo el ancho del contenedor */
-    max-width: 1200px; /* Limita el ancho máximo en pantallas grandes */
     height: auto; /* Mantiene las proporciones originales de la imagen */
     margin: 20px auto; /* Centra la imagen y añade espacio vertical */
     border-radius: 10px; /* Opcional: bordes redondeados para estética */
+}
+
+.menu-container, .menu-section, header, footer {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 
@@ -114,9 +125,18 @@ body, html {
         font-size: 2.5rem;
     }
 
+    body {
+        padding: 0; /* Elimina el espacio lateral */
+    }
+
     .menu-section {
         width: 90%;
-        padding: 15px;
+        padding: 10px;
+    }
+
+    .menu-container {
+        margin: 0 auto; /* Centra sin desbordar */
+        width: 100%;
     }
 
     .menu-section h2 {
