@@ -2,11 +2,23 @@
 body {
     margin: 0;
     padding: 0;
+    padding-left: 120px; /* Espacio para la imagen izquierda */
+    padding-right: 120px; /* Espacio para la imagen derecha */
     font-family: 'Dancing Script', serif;
     background-color: #121212;
     color: #ffd700;
     overflow-x: hidden;
 }
+
+.banner-image {
+    display: block; /* Asegura que la imagen sea un bloque y ocupe el ancho completo del contenedor */
+    margin: 20px auto; /* Añade espacio alrededor de la imagen y la centra */
+    width: 20%; /* La imagen ocupará el ancho completo del contenedor */
+    max-width: 1200px; /* Limita el tamaño máximo en pantallas grandes */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    border-radius: 10px; /* Opcional: añade bordes redondeados */
+}
+
 
 /* Cabecera */
 .header {
