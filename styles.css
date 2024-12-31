@@ -136,6 +136,10 @@ img {
         padding: 10px;
     }
 
+    .responsive-image {
+        width: 40%; /* Ocupa todo el ancho del contenedor */
+    }
+
     .menu-container {
         margin: 0 auto; /* Centra sin desbordar */
         width: 100%;
